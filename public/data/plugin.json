@@ -1,0 +1,31 @@
+{
+  "plugin": {
+    "namespace": "richjava-blog",
+    "version": "1.0.0",
+    "apiVersion": "1.2",
+    "title": "Blog",
+    "description": "Blog plugin with basic Tailwind styling.",
+    "imageUrl": "",
+    "language": "typescript",
+    "repoName": "richjava/builtjs-plugin-blog",
+    "gitProvider": "github",
+    "repoUrl": "",
+    "demoUrl": "",
+    "mainModule": {
+      "name": "blog"
+    },
+    "requirements": [
+      {
+        "name": "tailwind"
+      }
+    ],
+    "config": {
+        "node": {
+          "dependencies": [
+            "date-fns",
+            "@sanity/block-content-to-react"
+          ]
+        }
+    }
+  }
+}

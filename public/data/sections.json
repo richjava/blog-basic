@@ -1,0 +1,179 @@
+{
+  "sections": [
+    {
+      "name": "header",
+      "title": "Header",
+      "category": "layout",
+      "type": "layout",
+      "description": "The header contains the company logo, main site navigation and often a call-to-action button.",
+      "templates": ["header1"],
+      "defaultTemplate": {
+        "name": "header1"
+      },
+      "position": "start",
+      "collections": {
+        "primaryMenuItem": {}
+      }
+    },
+    {
+      "name": "footer",
+      "title": "Footer",
+      "category": "layout",
+      "type": "layout",
+      "description": "The footer contains secondary site navigation.",
+      "templates": ["footer1"],
+      "defaultTemplate": {
+        "name": "footer1"
+      },
+      "position": "end"
+    },
+    {
+      "name": "blogSeo",
+      "title": "Blog SEO",
+      "templates": ["seo"],
+      "defaultTemplate": {
+        "name": "seo"
+      },
+      "category": "head",
+      "type": "head",
+      "data": {
+        "pageTitle": "Blog | Corporate Tailwind Built.JS Theme",
+        "description": "Blog page for a site built with the Corporate Tailwind Built.JS Theme.",
+        "shareImage": {
+          "name": "image",
+          "path": "/images/theme",
+          "ext": "png",
+          "url": "/images/theme/image.png",
+          "width": 1280,
+          "height": 768
+        },
+        "twitterCardType": "summary",
+        "twitterUsername": ""
+      }
+    },
+    {
+      "name": "blogTeaser",
+      "title": "Blog Teaser",
+      "description": "A set of blog items on the Home page.",
+      "templates": ["list1", "list2", "list3"],
+      "defaultTemplate": {
+        "name": "list2"
+      },
+      "data": {
+        "columns": 3
+      },
+      "collections": {
+        "post": {
+          "config": {
+            "sort": {
+              "0": "date:asc"
+            },
+            "limit": 3,
+            "populate": [
+              {
+                "name": "tags"
+              }
+            ]
+          },
+          "article": {
+            "name": "blogArticle"
+          }
+        }
+      }
+    },
+    {
+      "name": "blogLanding",
+      "title": "Blog Landing",
+      "description": "The blog page landing area. This area contains the latest published blog post.",
+      "templates": ["list1"],
+      "defaultTemplate": {
+        "name": "list1"
+      },
+      "collections": {
+        "post": {
+          "config": {
+            "sort": {
+              "0": "date:asc"
+            },
+            "limit": 1,
+            "populate": [
+              {
+                "name": "tags"
+              }
+            ]
+          },
+          "article": {
+            "name": "blogArticle"
+          }
+        }
+      }
+    },
+    {
+      "name": "postList",
+      "title": "Blog Item List",
+      "description": "A list of all published blog posts excluding the latest published blog post.",
+      "templates": ["list1", "list2", "list3"],
+      "defaultTemplate": {
+        "name": "list2"
+      },
+      "collections": {
+        "post": {
+          "config": {
+            "sort": {
+              "0": "date:asc"
+            },
+            "limit": 3,
+            "offset": 1,
+            "populate": [
+              {
+                "name": "tags"
+              }
+            ]
+          },
+          "article": {
+            "name": "blogArticle"
+          }
+        }
+      }
+    },
+    {
+      "name": "blogArticleLanding",
+      "title": "Blog Article Landing",
+      "description": "The blog post article page landing section.",
+      "templates": ["article1"],
+      "defaultTemplate": {
+        "name": "article1"
+      }
+    },
+    {
+      "name": "blogRelatedArticles",
+      "title": "Blog Related Articles",
+      "description": "A list of related articles to and excluding the currently viewed article.",
+      "templates": ["list1", "list2", "list3"],
+      "defaultTemplate": {
+        "name": "list2"
+      },
+      "data": {
+        "columns": 3
+      },
+      "collections": {
+        "post": {
+          "config": {
+            "sort": {
+              "0": "date:asc"
+            },
+            "limit": 3,
+            "populate": [
+              {
+                "name": "tags"
+              }
+            ]
+          },
+          "article": {
+            "name": "blogArticle"
+          }
+        }
+      }
+    }
+  ]
+}
