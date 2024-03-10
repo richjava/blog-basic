@@ -1,46 +1,59 @@
-# Built.JS Plugin: Blog
+# Built.is Plugin: Blog
 
-## NOTE: Unstable! Still in active development!
-
-A [Built.JS](https://builtjs.com) plugin for a blog, with basic Tailwind styling.
+A [Built.js](https://builtjs.com) plugin for a blog, with basic Tailwind styling.
 
 ## Installation
+1. Install dependencies:
 ```
 npm install
 ```
-Then you can run the app using:
+2. Start the development server:
 ```
 npm run dev
 ```
 
 ### Pages
+- Home
 - Blog
-- Blog Article
-
-### Sections
-- blog-seo
-- blog-landing
-- post-list
-- blog-list
-- blog-article
-- blog-related-articles
+- Post
+  - Blog Article
 
 ---
 
 ### Content Types
 #### Post
 Fields:
-- title: String
-- content: Portabletext
-- image: Image
+- title: string
+- slug: uid
+- content: portabletext
+- blurb: text
+- image: image
+- date: date
 - tags: Array<Tag>
 - createdAt: Date
 - author: Author
 
 #### Author
 Fields:
-- fullName: String
-- bio: Portabletext
-- position: String
-- profileImage: Image
+- fullName: string
+- profile: Profile
 - posts: Array<Post>
+
+#### Profile
+Fields:
+- title: string
+- excerpt: text
+- bio: portabletext
+- position: string
+- profileImage: image
+
+#### Tag
+Fields:
+- name: string
+- slug uid
+
+#### Primary Menu Item
+Fields:
+- slug uid
+- label: string
+- url: string

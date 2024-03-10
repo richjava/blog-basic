@@ -81,6 +81,12 @@
           "type": "date",
           "required": true
         },
+        "author": {
+          "type": "relation",
+          "relation": "manyToOne",
+          "target": "author",
+          "inversedBy": "posts"
+        },
         "tags": {
           "type": "relation",
           "relation": "oneToMany",
