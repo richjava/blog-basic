@@ -5,20 +5,15 @@
     "apiVersion": "1.2",
     "title": "Blog",
     "description": "Blog plugin with basic Tailwind styling.",
-    "imageUrl": "",
+    "imageUrl": "https://cdn.jsdelivr.net/gh/richjava/builtjs-plugin-blog/public/images/theme/plugin.png",
     "language": "typescript",
     "repoName": "richjava/builtjs-plugin-blog",
     "gitProvider": "github",
-    "repoUrl": "",
-    "demoUrl": "",
+    "repoUrl": "https://github.com/richjava/builtjs-plugin-blog",
+    "demoUrl": "https://builtjs-plugin-blog.vercel.app",
     "mainModule": {
       "name": "blog"
     },
-    "requirements": [
-      {
-        "name": "tailwind"
-      }
-    ],
     "config": {
         "node": {
           "dependencies": [
