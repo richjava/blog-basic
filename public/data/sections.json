@@ -55,7 +55,7 @@
       "name": "blogTeaser",
       "title": "Blog Teaser",
       "description": "A set of blog items on the Home page.",
-      "templates": ["list1", "list2", "list3"],
+      "templates": ["list1", "list2"],
       "defaultTemplate": {
         "name": "list2"
       },
@@ -112,7 +112,7 @@
       "name": "postList",
       "title": "Blog Item List",
       "description": "A list of all published blog posts excluding the latest published blog post.",
-      "templates": ["list1", "list2", "list3"],
+      "templates": ["list1", "list2"],
       "defaultTemplate": {
         "name": "list2"
       },
@@ -149,7 +149,7 @@
       "name": "blogRelatedArticles",
       "title": "Blog Related Articles",
       "description": "A list of related articles to and excluding the currently viewed article.",
-      "templates": ["list1", "list2", "list3"],
+      "templates": ["list1", "list2"],
       "defaultTemplate": {
         "name": "list2"
       },
