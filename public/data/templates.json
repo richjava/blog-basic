@@ -6,7 +6,7 @@
       "category": "headers",
       "isDemo": true,
       "description": "Simple header with justified logo and nav links.",
-      "repoUrl": "https://github.com/richjava/builtjs-plugin-blog/blob/main/components/templates/headers/header1/header1.js",
+      "repoUrl": "https://github.com/richjava/builtjs-plugin-blog/blob/main/components/templates/headers/header1.js",
       "demoUrl": ""
     },
     {
@@ -15,7 +15,7 @@
       "category": "footers",
       "isDemo": true,
       "description": "Simple footer with centered content and social links.",
-      "repoUrl": "https://github.com/richjava/builtjs-plugin-blog/blob/main/components/templates/footers/footer1/footer1.js",
+      "repoUrl": "https://github.com/richjava/builtjs-plugin-blog/blob/main/components/templates/footers/footer1.js",
       "demoUrl": ""
     },
     {
@@ -24,7 +24,7 @@
       "title": "SEO",
       "category": "head",
       "description": "Define SEO meta titles, meta descriptions and social media meta data.",
-      "repoUrl": "https://github.com/richjava/builtjs-plugin-blog/blob/main/components/templates/head/seo/seo.js"
+      "repoUrl": "https://github.com/richjava/builtjs-plugin-blog/blob/main/components/templates/head/seo.js"
     },
     {
       "name": "list1",
@@ -32,10 +32,10 @@
       "category": "lists",
       "description": "List item with two offset columns and split content.",
       "images": {
-        "thumb": "https://cdn.jsdelivr.net/gh/richjava/builtjs-plugin-blog/public/images/theme/templates/lists/list1/list1.png",
-        "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-plugin-blog/public/images/theme/templates/lists/list1/list1.png"
+        "thumb": "https://cdn.jsdelivr.net/gh/richjava/builtjs-plugin-blog/public/images/theme/templates/lists/list1.png",
+        "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-plugin-blog/public/images/theme/templates/lists/list1.png"
       },
-      "repoUrl": "https://github.com/richjava/builtjs-plugin-blog/blob/main/components/templates/lists/list1/list1.js",
+      "repoUrl": "https://github.com/richjava/builtjs-plugin-blog/blob/main/components/templates/lists/list1.js",
       "demoUrl": ""
     },
     {
@@ -44,10 +44,10 @@
       "category": "lists",
       "description": "List of items with three equal columns, left aligned content and an image.",
       "images": {
-        "thumb": "https://cdn.jsdelivr.net/gh/richjava/builtjs-plugin-blog/public/images/theme/templates/lists/list2/list2.png",
-        "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-plugin-blog/public/images/theme/templates/lists/list2/list2.png"
+        "thumb": "https://cdn.jsdelivr.net/gh/richjava/builtjs-plugin-blog/public/images/theme/templates/lists/list2.png",
+        "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-plugin-blog/public/images/theme/templates/lists/list2.png"
       },
-      "repoUrl": "https://github.com/richjava/builtjs-plugin-blog/blob/main/components/templates/lists/list2/list2.js",
+      "repoUrl": "https://github.com/richjava/builtjs-plugin-blog/blob/main/components/templates/lists/list2.js",
       "demoUrl": ""
     },
     {
@@ -56,10 +56,10 @@
       "category": "articles",
       "description": "Article section with hero image.",
       "images": {
-        "thumb": "https://cdn.jsdelivr.net/gh/richjava/builtjs-plugin-blog/public/images/theme/templates/articles/article1/article1.png",
-        "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-plugin-blog/public/images/theme/templates/articles/article1/article1.png"
+        "thumb": "https://cdn.jsdelivr.net/gh/richjava/builtjs-plugin-blog/public/images/theme/templates/articles/article1.png",
+        "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-plugin-blog/public/images/theme/templates/articles/article1.png"
       },
-      "repoUrl": "https://github.com/richjava/builtjs-plugin-blog/blob/main/components/templates/articles/article1/article1.js",
+      "repoUrl": "https://github.com/richjava/builtjs-plugin-blog/blob/main/components/templates/articles/article1.js",
       "demoUrl": ""
     }
   ]
