@@ -51,18 +51,6 @@
       "demoUrl": ""
     },
     {
-      "name": "list3",
-      "title": "List 3",
-      "category": "lists",
-      "description": "List of items with two equal columns and split content.",
-      "images": {
-        "thumb": "https://cdn.jsdelivr.net/gh/richjava/builtjs-plugin-blog/public/images/theme/templates/lists/list3/list3.png",
-        "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-plugin-blog/public/images/theme/templates/lists/list3/list3.png"
-      },
-      "repoUrl": "https://github.com/richjava/builtjs-plugin-blog/blob/main/components/templates/lists/list3/list3.js",
-      "demoUrl": ""
-    },
-    {
       "name": "article1",
       "title": "Article 1",
       "category": "articles",
