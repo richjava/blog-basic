@@ -12,12 +12,14 @@ export async function getComponentMap(sections: any) {
         continue;
       }
       const template = section.template.doc;
-      const templateNameToDash = toDashCase(template.name);
+      const templateFileName = template.name.replace(/[A-Z]/g, function (match: string) {
+        return '-' + match.toLowerCase();
+      });
       if (template.isDemo) {
         map["section" + i] = import(
           `./components/templates/${
             template.category
-          }/${templateNameToDash}.${
+          }/${templateFileName}.${
             language === "typescript" ? "tsx" : "jsx"
           }`
         );
@@ -25,7 +27,7 @@ export async function getComponentMap(sections: any) {
         map["section" + i] = import(
           `../components/plugins/${publicRuntimeConfig.NAMESPACE}/templates/${
             template.category
-          }/${templateNameToDash}.${
+          }/${templateFileName}.${
             language === "typescript" ? "tsx" : "jsx"
           }`
         );
@@ -48,14 +50,6 @@ export function getComponents(sections: any) {
       resolve(comps);
     });
   });
-}
-
-function toDashCase(input: string) {
-  // Check if the input is in camel case
-  if (/^[a-z]+(?:[A-Z][a-z]*)*$/.test(input)) {
-    return input.replace(/([a-z])([A-Z])/g, "$1-$2").toLowerCase();
-  }
-  return input;
 }
 
 export const urlForImage = (source:any) => {
