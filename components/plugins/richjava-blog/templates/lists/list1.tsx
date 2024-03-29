@@ -21,9 +21,9 @@ export default function List1({ content }: any) {
             {heroPost.image && (
               <div className="h-full col-span-3 lg:order-last">
                 <Link href={url}>
-                  <div className="relative transition-opacity rounded-lg h-96 lg:h-full hover:opacity-80">
+                  <div className="relative transition-opacity rounded-corner-03 h-96 lg:h-full hover:opacity-80">
                     <Image
-                      className="bg-gray-100 rounded-lg"
+                      className="bg-light-04 rounded-corner-03"
                       src={urlForImage(heroPost.image)}
                       fill
                       style={{ objectFit: "cover" }}
@@ -43,26 +43,26 @@ export default function List1({ content }: any) {
               )}
               <div className="flex items-center mb-4">
                 {heroPost.date && (
-                  <p className="mb-0 text-sm capitalize preheading">
+                  <p className="mb-0 capitalize paragraph-2 preheading">
                     {format(new Date(heroPost.date), "dd LLLL yyyy")}
                   </p>
                 )}
-                <span className="mx-3 text-gray-400">|</span>
+                <span className="mx-3 text-light-01">|</span>
                 {heroPost.category && (
                   <Link className="no-underline hover:underline" href={`/`}>
-                    <p className="mb-0 text-sm capitalize">
+                    <p className="mb-0 capitalize paragraph-2">
                       {heroPost.category}
                     </p>
                   </Link>
                 )}
               </div>
               <Link className="no-underline" href={url}>
-                <h2 className="hover:text-gray-700 dark:hover:text-gray-200">
+                <h2 className="heading-05 hover:text-dark-02 dark:hover:text-light-03">
                   {heroPost.title}
                 </h2>
               </Link>
-              <p className="mb-10 text-lg">{heroPost.blurb}</p>
-              <Link href={url}>Read Article</Link>
+              <p className="mb-10 paragraph-04">{heroPost.blurb}</p>
+              <Link className="text-dark-01 dark:text-light-03" href={url}>Read Article</Link>
             </div>
           </div>
         )}

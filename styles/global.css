@@ -1,3 +1,85 @@
+:root {
+  /* Accent color hsl values used in tailwind.config file */
+  --hue-accent: 220;
+  --saturation-accent: 9%;
+  --lightness-accent: 46%;
+}
+
+/* Display styles */
+.display-01 {
+  @apply font-display text-display-01 leading-display-01;
+}
+
+.display-02 {
+  @apply font-display text-display-02 leading-display-02;
+}
+
+.display-03 {
+  @apply font-display text-display-03 leading-display-03;
+}
+
+.display-04 {
+  @apply font-display text-display-04 leading-display-04;
+}
+
+/* Heading styles */
+.heading-01 {
+  @apply text-heading-01 leading-heading-01;
+}
+
+.heading-02 {
+  @apply text-heading-02 leading-heading-02;
+}
+.heading-03 {
+  @apply text-heading-03 leading-heading-03;
+}
+
+.heading-04 {
+  @apply text-heading-04 leading-heading-04;
+}
+
+.heading-05 {
+  @apply text-heading-05 leading-heading-05;
+}
+
+.heading-06 {
+  @apply text-heading-06 leading-heading-06;
+}
+
+/* Label styles */
+.label-01 {
+  @apply text-label-01 leading-label-01;
+}
+
+.label-02 {
+  @apply text-label-02 leading-label-02;
+}
+
+.label-03 {
+  @apply text-label-03 leading-label-03;
+}
+
+.label-04 {
+  @apply text-label-04 leading-label-04;
+}
+
+/* Paragraph styles */
+.paragraph-01 {
+  @apply text-paragraph-01 leading-paragraph-01;
+}
+
+.paragraph-02 {
+  @apply text-paragraph-02 leading-paragraph-02;
+}
+
+.paragraph-03 {
+  @apply text-paragraph-03 leading-paragraph-03;
+}
+
+.paragraph-04 {
+  @apply text-paragraph-04 leading-paragraph-04;
+}
+
 .tag {
-  @apply px-2 py-1 text-xs text-center text-white no-underline transition-colors bg-gray-700 dark:bg-gray-200 rounded-3xl dark:hover:bg-gray-300 hover:bg-gray-600 dark:text-black;
+  @apply px-2 py-1 text-center text-white no-underline transition-colors text-label-01 bg-accent dark:bg-light-03 rounded-corner-04 dark:hover:bg-light-02 hover:bg-dark-01 dark:text-dark-04;
 }

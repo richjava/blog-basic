@@ -28,7 +28,7 @@ export default function List2({ content, router }: any) {
                       >
                         <div className="relative mb-6 transition-opacity h-96 lg:h-56 hover:opacity-80">
                           <Image
-                            className="bg-gray-100 rounded-lg"
+                            className="rounded-corner-03 bg-light-04"
                             src={urlForImage(entry.image)}
                             fill
                             style={{ objectFit: "cover" }}
@@ -47,16 +47,16 @@ export default function List2({ content, router }: any) {
                       </div>
                     )}
                     <div className="flex items-center mb-2">
-                      <p className="mb-0 text-sm capitalize preheading">
+                      <p className="mb-0 capitalize paragraph-2 preheading">
                         {format(new Date(entry.date), "dd LLLL yyyy")}
                       </p>
-                      <span className="mx-3 text-gray-400">|</span>
+                      <span className="mx-3 text-light-01">|</span>
                       {entry.category && (
                         <Link
                           className="no-underline hover:underline"
                           href={`/`}
                         >
-                          <p className="mb-0 text-sm capitalize">
+                          <p className="mb-0 capitalize paragraph-2">
                             {entry.category}
                           </p>
                         </Link>
@@ -66,12 +66,12 @@ export default function List2({ content, router }: any) {
                       className="no-underline"
                       href={`/${collectionSlug(entry)}/${entrySlug(entry)}`}
                     >
-                      <h3 className="mb-2 hover:text-gray-700 dark:hover:text-gray-200">
+                      <h3 className="mb-2 heading-04 hover:text-dark-02 dark:hover:text-light-03">
                         {entry.title}
                       </h3>
                     </Link>
-                    <p>{entry.blurb}</p>
-                    <Link
+                    <p className="paragraph-03">{entry.blurb}</p>
+                    <Link className="text-dark-01 dark:text-light-03"
                       href={`/${collectionSlug(entry)}/${entrySlug(entry)}`}
                     >
                       Read Article
@@ -83,7 +83,7 @@ export default function List2({ content, router }: any) {
         </div>
         {!collection.length && (
           <div>
-            <p>No posts</p>
+            <p className="paragraph-04">No posts</p>
           </div>
         )}
       </div>

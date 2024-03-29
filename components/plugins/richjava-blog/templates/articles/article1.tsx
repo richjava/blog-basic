@@ -18,15 +18,15 @@ export default function Article1({ content }: any) {
         <div className="max-w-screen-xl mx-auto">
           <header className="max-w-4xl mx-auto">
             <div className="flex items-center mb-4">
-              <p className="mb-0 text-sm capitalize preheading">
+              <p className="paragraph-02 mb-0 capitalize preheading">
                 {format(new Date(entry.date), "dd LLLL yyyy")}
               </p>
-              <span className="mx-3 text-gray-400">|</span>
+              <span className="mx-3 text-light-01">|</span>
               <Link className="no-underline hover:underline" href="/">
-                <p className="mb-0 text-sm">{entry.category}</p>
+                <p className="paragraph-02 mb-0">{entry.category}</p>
               </Link>
             </div>
-            <h1 className="mb-10">{entry.title}</h1>
+            <h1 className="heading-06 mb-10">{entry.title}</h1>
             {author && (
               <div className="flex items-center">
                 <div className="relative w-12 h-12 mr-4 text-white">
@@ -39,7 +39,7 @@ export default function Article1({ content }: any) {
                   />
                 </div>
                 <div>
-                  <p className="mb-0 font-bold text-black capitalize">
+                  <p className="paragraph-03 mb-0 font-bold text-black capitalize">
                     {author.fullName}
                   </p>
                   <p className="mb-0 text-sm capitalize">

@@ -11,28 +11,12 @@
     @apply mb-6 font-bold text-black dark:text-white;
   }
 
-  h1 {
-    @apply text-7xl;
-  }
-
-  h2 {
-    @apply text-5xl;
-  }
-
-  h3 {
-    @apply text-2xl;
-  }
-
   p {
-    @apply mb-4 leading-relaxed text-gray-600 dark:text-gray-300;
-  }
-
-  a:not([class]) {
-    @apply text-gray-400 underline hover:text-gray-600 dark:hover:text-gray-200;
+    @apply mb-4 text-dark-01 dark:text-light-02;
   }
 
   img {
-    @apply rounded-lg;
+    @apply rounded-corner-03;
   }
 
   header,
@@ -40,7 +24,7 @@
   section,
   aside,
   footer {
-    @apply dark:bg-gray-800;
+    @apply dark:bg-dark-03;
   }
 
   main > section,

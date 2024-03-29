@@ -19,13 +19,13 @@ export default function Header1({ content }: any) {
   }
   return (
     <header id="header1" className="template">
-      <section className="p-4 border-b border-gray-200 dark:border-gray-700">
+      <section className="p-4 border-b border-light-03 dark:border-dark-02">
         <div className="max-w-screen-xl mx-auto">
           <nav className="flex flex-wrap items-center">
             <Link className="flex items-center pr-10 mr-auto" href="/">
               <span className="relative w-10">
                 <Image
-                  className="text-gray-400 bg-white fill-current dark:bg-gray-800"
+                  className="text-light-01 bg-white fill-current dark:bg-dark-03"
                   src={urlForImage(global?.logo)}
                   width={widthForImage(global?.logo)}
                   height={heightForImage(global?.logo)}
@@ -53,7 +53,7 @@ export default function Header1({ content }: any) {
                       }
                     >
                       <Link
-                        className="flex justify-center w-full p-3 text-gray-600 transition duration-200 ease-in-out rounded-md dark:text-gray-300 hover:text-gray-900 hover:bg-gray-100 dark:hover:text-gray-800 md:w-auto"
+                        className="flex justify-center w-full p-3 text-dark-01 transition duration-200 ease-in-out rounded-corner-02 dark:text-light-02 hover:text-dark-04 hover:bg-light-04 dark:hover:text-dark-03 md:w-auto"
                         href={menuItem.url}
                       >
                         {menuItem.label}
@@ -69,7 +69,7 @@ export default function Header1({ content }: any) {
               className="ml-4 button md:hidden hover:cursor-pointer"
               onClick={() => setNavbarOpen(!navbarOpen)}
             >
-              <div className="relative w-12 h-12 transition-colors duration-200 ease-in-out bg-black rounded-md hover:bg-gray-800">
+              <div className="relative w-12 h-12 transition-colors duration-200 ease-in-out bg-black rounded-corner-02 hover:bg-dark-03">
                 <svg
                   className={
                     "p-3 w-12 absolute top-0 left-0 transition-opacity duration-200 ease-in-out" +
