@@ -2,12 +2,10 @@
   "sections": {
     "blogTeaser": {
       "name": "blogTeaser",
-      "category": "sections",
       "fields": {}
     },
     "blogSeo": {
       "name": "blogSeo",
-      "category": "seo",
       "fields": {
         "pageTitle": {
           "type": "string"
@@ -28,22 +26,18 @@
     },
     "blogLanding": {
       "name": "blogLanding",
-      "category": "sections",
       "fields": {}
     },
     "postList": {
       "name": "postList",
-      "category": "sections",
       "fields": {}
     },
     "blogArticleLanding": {
       "name": "blogArticleLanding",
-      "category": "sections",
       "fields": {}
     },
     "blogRelatedArticles": {
       "name": "blogRelatedArticles",
-      "category": "sections",
       "fields": {}
     }
   }

@@ -3,7 +3,6 @@
     {
       "name": "header",
       "title": "Header",
-      "category": "layout",
       "type": "layout",
       "description": "The header contains the company logo, main site navigation and often a call-to-action button.",
       "templates": ["header1"],
@@ -18,7 +17,6 @@
     {
       "name": "footer",
       "title": "Footer",
-      "category": "layout",
       "type": "layout",
       "description": "The footer contains secondary site navigation.",
       "templates": ["footer1"],
@@ -34,7 +32,6 @@
       "defaultTemplate": {
         "name": "seo"
       },
-      "category": "head",
       "type": "head",
       "data": {
         "pageTitle": "Blog | Corporate Tailwind Built.JS Theme",
