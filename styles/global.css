@@ -79,7 +79,3 @@
 .paragraph-04 {
   @apply text-paragraph-04 leading-paragraph-04;
 }
-
-.tag {
-  @apply px-2 py-1 text-center text-white no-underline transition-colors text-label-01 bg-accent dark:bg-light-03 rounded-corner-04 dark:hover:bg-light-02 hover:bg-dark-01 dark:text-dark-04;
-}
