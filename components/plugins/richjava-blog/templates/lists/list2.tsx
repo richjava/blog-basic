@@ -28,7 +28,7 @@ export default function List2({ content }: any) {
                       >
                         <div className="relative mb-6 transition-opacity h-96 lg:h-56 hover:opacity-80">
                           <Image
-                            className="rounded-corner-03 bg-light-04"
+                            className="rounded-lg bg-gray-400"
                             src={urlForImage(entry.image)}
                             fill
                             style={{ objectFit: "cover" }}
@@ -50,7 +50,7 @@ export default function List2({ content }: any) {
                       <p className="mb-0 capitalize paragraph-2 preheading">
                         {format(new Date(entry.date), "dd LLLL yyyy")}
                       </p>
-                      <span className="mx-3 text-light-01">|</span>
+                      <span className="mx-3 text-gray-100">|</span>
                       {entry.category && (
                         <Link
                           className="no-underline hover:underline"
@@ -66,12 +66,12 @@ export default function List2({ content }: any) {
                       className="no-underline"
                       href={`/${collectionSlug(entry)}/${entrySlug(entry)}`}
                     >
-                      <h3 className="mb-2 heading-04 hover:text-dark-02 dark:hover:text-light-03">
+                      <h3 className="mb-2 heading-lg hover:text-gray-700 dark:hover:text-gray-300">
                         {entry.title}
                       </h3>
                     </Link>
-                    <p className="paragraph-03">{entry.blurb}</p>
-                    <Link className="text-dark-01 dark:text-light-03"
+                    <p className="paragraph-md">{entry.blurb}</p>
+                    <Link className="text-gray-600 dark:text-gray-300"
                       href={`/${collectionSlug(entry)}/${entrySlug(entry)}`}
                     >
                       Read Article
@@ -83,7 +83,7 @@ export default function List2({ content }: any) {
         </div>
         {!collection.length && (
           <div>
-            <p className="paragraph-04">No posts</p>
+            <p className="paragraph-lg">No posts</p>
           </div>
         )}
       </div>

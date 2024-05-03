@@ -21,9 +21,9 @@ export default function List1({ content }: any) {
             {heroPost.image && (
               <div className="h-full col-span-3 lg:order-last">
                 <Link href={url}>
-                  <div className="relative transition-opacity rounded-corner-03 h-96 lg:h-full hover:opacity-80">
+                  <div className="relative transition-opacity rounded-lg h-96 lg:h-full hover:opacity-80">
                     <Image
-                      className="bg-light-04 rounded-corner-03"
+                      className="bg-gray-400 rounded-lg"
                       src={urlForImage(heroPost.image)}
                       fill
                       style={{ objectFit: "cover" }}
@@ -47,7 +47,7 @@ export default function List1({ content }: any) {
                     {format(new Date(heroPost.date), "dd LLLL yyyy")}
                   </p>
                 )}
-                <span className="mx-3 text-light-01">|</span>
+                <span className="mx-3 text-gray-100">|</span>
                 {heroPost.category && (
                   <Link className="no-underline hover:underline" href={`/`}>
                     <p className="mb-0 capitalize paragraph-2">
@@ -57,12 +57,12 @@ export default function List1({ content }: any) {
                 )}
               </div>
               <Link className="no-underline" href={url}>
-                <h2 className="heading-05 hover:text-dark-02 dark:hover:text-light-03">
+                <h2 className="heading-xl hover:text-gray-700 dark:hover:text-gray-300">
                   {heroPost.title}
                 </h2>
               </Link>
-              <p className="mb-10 paragraph-04">{heroPost.blurb}</p>
-              <Link className="text-dark-01 dark:text-light-03" href={url}>Read Article</Link>
+              <p className="mb-10 paragraph-lg">{heroPost.blurb}</p>
+              <Link className="text-gray-600 dark:text-gray-300" href={url}>Read Article</Link>
             </div>
           </div>
         )}

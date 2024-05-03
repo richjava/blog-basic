@@ -6,76 +6,76 @@
 }
 
 /* Display styles */
-.display-01 {
-  @apply font-display text-display-01 leading-display-01;
+.display-xs {
+  @apply font-display text-display-xs leading-display-xs;
 }
 
-.display-02 {
-  @apply font-display text-display-02 leading-display-02;
+.display-sm {
+  @apply font-display text-display-sm leading-display-sm;
 }
 
-.display-03 {
-  @apply font-display text-display-03 leading-display-03;
+.display-md {
+  @apply font-display text-display-md leading-display-md;
 }
 
-.display-04 {
-  @apply font-display text-display-04 leading-display-04;
+.display-lg {
+  @apply font-display text-display-lg leading-display-lg;
 }
 
 /* Heading styles */
-.heading-01 {
-  @apply text-heading-01 leading-heading-01;
+.heading-xs {
+  @apply text-heading-xs leading-heading-xs;
 }
 
-.heading-02 {
-  @apply text-heading-02 leading-heading-02;
+.heading-sm {
+  @apply text-heading-sm leading-heading-sm;
 }
-.heading-03 {
-  @apply text-heading-03 leading-heading-03;
-}
-
-.heading-04 {
-  @apply text-heading-04 leading-heading-04;
+.heading-md {
+  @apply text-heading-md leading-heading-md;
 }
 
-.heading-05 {
-  @apply text-heading-05 leading-heading-05;
+.heading-lg {
+  @apply text-heading-lg leading-heading-lg;
 }
 
-.heading-06 {
-  @apply text-heading-06 leading-heading-06;
+.heading-xl {
+  @apply text-heading-xl leading-heading-xl;
+}
+
+.heading-xxl {
+  @apply text-heading-xxl leading-heading-xxl;
 }
 
 /* Label styles */
-.label-01 {
-  @apply text-label-01 leading-label-01;
+.label-xs {
+  @apply text-label-xs leading-label-xs;
 }
 
-.label-02 {
-  @apply text-label-02 leading-label-02;
+.label-sm {
+  @apply text-label-sm leading-label-sm;
 }
 
-.label-03 {
-  @apply text-label-03 leading-label-03;
+.label-md {
+  @apply text-label-md leading-label-md;
 }
 
-.label-04 {
-  @apply text-label-04 leading-label-04;
+.label-lg {
+  @apply text-label-lg leading-label-lg;
 }
 
 /* Paragraph styles */
-.paragraph-01 {
-  @apply text-paragraph-01 leading-paragraph-01;
+.paragraph-xs {
+  @apply text-paragraph-xs leading-paragraph-xs;
 }
 
-.paragraph-02 {
-  @apply text-paragraph-02 leading-paragraph-02;
+.paragraph-sm {
+  @apply text-paragraph-sm leading-paragraph-sm;
 }
 
-.paragraph-03 {
-  @apply text-paragraph-03 leading-paragraph-03;
+.paragraph-md {
+  @apply text-paragraph-md leading-paragraph-md;
 }
 
-.paragraph-04 {
-  @apply text-paragraph-04 leading-paragraph-04;
+.paragraph-lg {
+  @apply text-paragraph-lg leading-paragraph-lg;
 }

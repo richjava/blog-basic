@@ -12,11 +12,11 @@
   }
 
   p {
-    @apply mb-4 text-dark-01 dark:text-light-02;
+    @apply mb-4 text-gray-600 dark:text-gray-200;
   }
 
   img {
-    @apply rounded-corner-03;
+    @apply rounded-lg;
   }
 
   header,
@@ -24,7 +24,7 @@
   section,
   aside,
   footer {
-    @apply dark:bg-dark-03;
+    @apply dark:bg-gray-800;
   }
 
   main > section,
