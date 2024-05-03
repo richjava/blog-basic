@@ -2,6 +2,8 @@
 
 A [Built.js](https://builtjs.com) plugin for a blog, with basic Tailwind styling.
 
+Demo: [https://builtjs-plugin-blog.vercel.app](https://builtjs-plugin-blog.vercel.app/)
+
 ## Installation
 1. Install dependencies:
 ```
