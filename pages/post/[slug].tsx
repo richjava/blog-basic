@@ -1,8 +1,8 @@
 import { GetStaticPaths, GetStaticProps } from "next";
 import { withRouter } from "next/router";
 import { getConfig, getEntries } from "@builtjs/theme";
-import Page from "@/lib/page";
-import { pages } from "@/lib/constants";
+import Page from "@/lib/theme/page";
+import { pages } from "@/lib/theme/constants";
 
 export default withRouter(Page);
 
@@ -17,9 +17,17 @@ export const getStaticPaths: GetStaticPaths = async () => {
   };
 };
 
-export const getStaticProps: GetStaticProps = async (context) => {
-  const config = await getConfig(pages.BLOG_ARTICLE);
-  config.params = context.params;
+export const getStaticProps: GetStaticProps = async ({params}) => {
+  // const config = await getConfig({
+  //   pageName: pages.BLOG_ARTICLE, 
+  //   params
+  // });
+  const config = await getConfig({pageName: pages.BLOG_ARTICLE});
+  config.params = params;
+  return {
+    props: { config }
+  };
+  console.log('config...', config);
   return {
     props: { config },
   };

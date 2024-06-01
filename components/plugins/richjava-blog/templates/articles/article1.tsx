@@ -2,14 +2,14 @@ import { format } from "date-fns";
 import Image from "next/image";
 import Link from "next/link";
 import { Tag } from "@/components/plugins/richjava-blog/shared";
-import { urlForImage, widthForImage, heightForImage } from "@/lib/utils";
+import { urlForImage } from "@/builtjs-utils";
 import BlockContent from '@sanity/block-content-to-react';
 
 export default function Article1({ content }: any) {
   if (!content) return <></>;
   let { entry = null } = { ...content };
   let author = null;
-  if (entry.author) {
+  if (entry && entry.author) {
     author = entry.author;
   }
   return (
@@ -18,15 +18,15 @@ export default function Article1({ content }: any) {
         <div className="max-w-screen-xl mx-auto">
           <header className="max-w-4xl mx-auto">
             <div className="flex items-center mb-4">
-              <p className="paragraph-sm mb-0 capitalize preheading">
+              <p className="mb-0 capitalize paragraph-sm preheading">
                 {format(new Date(entry.date), "dd LLLL yyyy")}
               </p>
               <span className="mx-3 text-gray-100">|</span>
               <Link className="no-underline hover:underline" href="/">
-                <p className="paragraph-sm mb-0">{entry.category}</p>
+                <p className="mb-0 paragraph-sm">{entry.category}</p>
               </Link>
             </div>
-            <h1 className="heading-xxl mb-10">{entry.title}</h1>
+            <h1 className="mb-10 heading-xxl">{entry.title}</h1>
             {author && (
               <div className="flex items-center">
                 <div className="relative w-12 h-12 mr-4 text-white">
@@ -39,7 +39,7 @@ export default function Article1({ content }: any) {
                   />
                 </div>
                 <div>
-                  <p className="paragraph-md mb-0 font-bold text-black capitalize">
+                  <p className="mb-0 font-bold text-black capitalize paragraph-md">
                     {author.fullName}
                   </p>
                   <p className="mb-0 text-sm capitalize">

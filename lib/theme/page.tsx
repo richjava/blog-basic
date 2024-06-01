@@ -1,25 +1,27 @@
-import React, { useEffect, useState } from "react";
-import { useRouter } from "next/router";
-import Layout from "@/components/plugins/richjava-blog/layout";
+import React, {useEffect, useState} from 'react';
+import {useRouter} from 'next/router';
+import { useParams } from 'next/navigation'
+import Layout from '@/components/plugins/richjava-blog/layout';
+import {getComponents} from './utils';
 import { setupCrumbs } from ".";
-import { getComponents } from "./utils";
+const {transformPage} = require('@builtjs/theme');
 
-const { transformPage } = require("@builtjs/theme");
+const Page = ({config}: any) => {
 
-const Page = ({ config }:any) => {
   const router = useRouter();
-  const { slug } = router.query;
+  const params = useParams();
+  const {slug} = router.query;
   const [page, setPage] = useState<any>(null);
-  const [layoutComps, setLayoutComps] = useState<any>([]);
-  const [sectionComps, setSectionComps] = useState<any>([]);
-  let [isSetUpCrumbs, setIsSetupCrumbs] = useState<boolean>(false);
+  const [layoutComps, setLayoutComps] = useState([]);
+  const [sectionComps, setSectionComps] = useState([]);
+  let [isSetUpCrumbs, setIsSetupCrumbs] = useState(false);
 
   useEffect(() => {
     if (!isSetUpCrumbs) {
       setupCrumbs(router);
       setIsSetupCrumbs(true);
     }
-    setPage(null)
+    setPage(null);
     setLayoutComps([]);
     init();
   }, [slug]);
@@ -28,7 +30,8 @@ const Page = ({ config }:any) => {
     if (!config) {
       return;
     }
-    let page = await transformPage(config);
+    let page: any = await transformPage(config, params);
+    console.log('page... ',page)
     if (!page) {
       return;
     }
@@ -48,7 +51,7 @@ const Page = ({ config }:any) => {
           <>
             {page &&
               sectionComps.length > 0 &&
-              sectionComps.map((Section:any, i:number) => {
+              sectionComps.map((Section: any, i: number) => {
                 return (
                   page.sections[i] && (
                     <Section key={i} content={page.sections[i].content} />

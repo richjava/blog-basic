@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { format } from "date-fns";
-import { urlForImage, collectionSlug, entrySlug } from "@/lib/utils";
+import { urlForImage, collectionSlug, entrySlug } from "@/builtjs-utils";
 import { Tag } from "@/components/plugins/richjava-blog/shared";
 
 export default function List1({ content }: any) {
