@@ -5,6 +5,7 @@ const Layout = (props: any) => {
   const { children, layoutComps, page } = props;
   return (
     <>
+    <div className="layout">
       {page &&
         layoutComps.length > 0 &&
         layoutComps.map((Section: any, i: number) => {
@@ -15,6 +16,7 @@ const Layout = (props: any) => {
             </div>
           );
         })}
+        </div>
     </>
   );
 };
