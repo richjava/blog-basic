@@ -18,7 +18,8 @@
         "node": {
           "dependencies": [
             "date-fns",
-            "@sanity/block-content-to-react"
+            "@sanity/block-content-to-react",
+            "@fisch0920/use-dark-mode"
           ]
         }
     }
