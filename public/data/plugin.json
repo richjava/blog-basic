@@ -1,6 +1,6 @@
 {
   "plugin": {
-    "namespace": "richjava-blog",
+    "namespace": "richjava_builtjs-plugin-blog",
     "version": "1.0.0",
     "apiVersion": "1.2",
     "title": "Blog",
