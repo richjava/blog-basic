@@ -13,7 +13,7 @@ export default function List2({ content }: any) {
   let collectionName = Object.keys(collections)[0];
   let collection = collections[collectionName];
   return (
-    <section id="list2" className="template">
+    <section id="list2" className="px-4 py-20 template">
       <div className="max-w-screen-xl mx-auto">
         <div className="grid grid-cols-1 gap-x-6 gap-y-16 lg:grid-cols-3">
           {collection &&
@@ -28,7 +28,7 @@ export default function List2({ content }: any) {
                       >
                         <div className="relative mb-6 transition-opacity h-96 lg:h-56 hover:opacity-80">
                           <Image
-                            className="rounded-lg bg-gray-400"
+                            className="bg-gray-400 rounded-lg"
                             src={urlForImage(entry.image)}
                             fill
                             style={{ objectFit: "cover" }}

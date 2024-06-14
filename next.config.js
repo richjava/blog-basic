@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   publicRuntimeConfig: {
-    NAMESPACE: "richjava-blog",
+    NAMESPACE: "richjava_builtjs-plugin-blog",
   },
 };
 

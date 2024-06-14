@@ -18,17 +18,9 @@ export const getStaticPaths: GetStaticPaths = async () => {
 };
 
 export const getStaticProps: GetStaticProps = async ({params}) => {
-  // const config = await getConfig({
-  //   pageName: pages.BLOG_ARTICLE, 
-  //   params
-  // });
   const config = await getConfig({pageName: pages.BLOG_ARTICLE});
   config.params = params;
   return {
     props: { config }
-  };
-  console.log('config...', config);
-  return {
-    props: { config },
   };
 };

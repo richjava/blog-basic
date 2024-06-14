@@ -13,7 +13,7 @@ export default function Article1({ content }: any) {
     author = entry.author;
   }
   return (
-    <article id="article1" className="template">
+    <article id="article1" className="px-4 py-20 template">
       {entry && (
         <div className="max-w-screen-xl mx-auto">
           <header className="max-w-4xl mx-auto">
