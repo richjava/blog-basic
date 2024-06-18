@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 const Layout = (props: any) => {
   if (!props) return <></>;
   const { children, layoutComps, page } = props;

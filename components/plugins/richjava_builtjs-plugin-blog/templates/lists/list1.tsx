@@ -6,6 +6,7 @@ import { Tag } from "@/components/plugins/richjava_builtjs-plugin-blog/shared";
 
 export default function List1({ content }: any) {
   if (!content) return <></>;
+  console.log({content})
   let { collections = null } = { ...content };
   if (!collections) {
     return <></>;
@@ -14,7 +15,7 @@ export default function List1({ content }: any) {
   const heroPost = collections[collectionName][0];
   const url = `/${collectionSlug(heroPost)}/${entrySlug(heroPost)}`;
   return (
-    <section id="list1" className="template px-4 py-20">
+    <section id="list1" className="px-4 py-20 template">
       <div className="max-w-screen-xl mx-auto">
         {heroPost && (
           <div className="grid grid-cols-1 gap-10 lg:grid-cols-5">
