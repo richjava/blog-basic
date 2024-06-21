@@ -1,13 +1,13 @@
 import { GetStaticPaths, GetStaticProps } from "next";
 import { withRouter } from "next/router";
-import { getConfig, getEntries } from "@builtjs/theme";
+import { getConfig, fetchEntries } from "@builtjs/theme";
 import Page from "@/lib/theme/page";
 import { pages } from "@/lib/theme/constants";
 
 export default withRouter(Page);
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const entryData:any = await getEntries('post');
+  const entryData:any = await fetchEntries('post');
   return {
     paths:
       entryData.entries.map(

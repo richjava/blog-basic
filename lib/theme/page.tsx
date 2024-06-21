@@ -4,7 +4,7 @@ import { useParams } from 'next/navigation'
 import Layout from '@/components/plugins/richjava_builtjs-plugin-blog/layout';
 import {getComponents} from '@/builtjs-utils';
 import { setupCrumbs } from ".";
-const {transformPage} = require('@builtjs/theme');
+const {transformPage, fetchEntry, fetchEntries} = require('@builtjs/theme');
 
 const Page = ({config}: any) => {
 
@@ -31,7 +31,6 @@ const Page = ({config}: any) => {
       return;
     }
     let page: any = await transformPage(config, params);
-    console.log('page... ',page)
     if (!page) {
       return;
     }
@@ -54,7 +53,10 @@ const Page = ({config}: any) => {
               sectionComps.map((Section: any, i: number) => {
                 return (
                   page.sections[i] && (
-                    <Section key={i} content={page.sections[i].content} />
+                    <Section 
+                    key={i} 
+                    api={page.sections[i].template.doc.type === 'dynamic' ? {fetchEntry, fetchEntries} : null} 
+                    content={page.sections[i].content} />
                   )
                 );
               })}

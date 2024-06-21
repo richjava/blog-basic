@@ -6,7 +6,6 @@ import { Tag } from "@/components/plugins/richjava_builtjs-plugin-blog/shared";
 
 export default function List1({ content }: any) {
   if (!content) return <></>;
-  console.log({content})
   let { collections = null } = { ...content };
   if (!collections) {
     return <></>;

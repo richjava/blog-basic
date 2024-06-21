@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@builtjs/theme": "^1.2.13",
+    "@builtjs/theme": "^1.2.16",
     "@fisch0920/use-dark-mode": "^2.4.0",
     "@next/font": "13.1.1",
     "@sanity/block-content-to-react": "^3.0.0",
@@ -21,7 +21,7 @@
     "date-fns": "^2.28.0",
     "eslint": "8.31.0",
     "eslint-config-next": "13.1.1",
-    "next": "14.1.0",
+    "next": "^14.2.4",
     "pluralize": "^8.0.0",
     "postcss": "^8.2.1",
     "postcss-import": "^16.1.0",
