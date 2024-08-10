@@ -12,8 +12,8 @@ const Page = ({config}: any) => {
   const params = useParams();
   const {slug} = router.query;
   const [page, setPage] = useState<any>(null);
-  const [layoutComps, setLayoutComps] = useState([]);
-  const [sectionComps, setSectionComps] = useState([]);
+  const [sectionComps, setSectionComps] = useState<React.ComponentType[]>([]);
+  const [layoutComps, setLayoutComps] = useState<React.ComponentType[]>([]);
   let [isSetUpCrumbs, setIsSetupCrumbs] = useState(false);
 
   useEffect(() => {

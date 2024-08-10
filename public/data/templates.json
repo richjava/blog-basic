@@ -20,7 +20,6 @@
     },
     {
       "name": "seo",
-      "type": "head",
       "title": "SEO",
       "category": "head",
       "description": "Define SEO meta titles, meta descriptions and social media meta data.",
