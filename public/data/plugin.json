@@ -9,12 +9,7 @@
       "name": "blog"
     },
     "config": {
-        "node": {
-          "dependencies": [
-            "date-fns",
-            "@sanity/block-content-to-react"
-          ]
-        }
+      "dependencies": ["date-fns", "@sanity/block-content-to-react"]
     }
   }
 }
