@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {useRouter} from 'next/router';
 import { useParams } from 'next/navigation'
-import Layout from '@/components/plugins/richjava_builtjs-plugin-blog/layout';
+import Layout from '@/components/plugins/gh_richjava_builtjs-plugin-blog/layout';
 import {getComponents} from '@/builtjs-utils';
 import { setupCrumbs } from ".";
 const {transformPage, fetchEntry, fetchEntries} = require('@builtjs/theme');

@@ -1,15 +1,9 @@
 {
   "plugin": {
-    "namespace": "richjava_builtjs-plugin-blog",
-    "version": "1.0.0",
-    "apiVersion": "1.2",
+    "namespace": "gh_richjava_builtjs-plugin-blog",
     "title": "Blog",
     "description": "Blog plugin with basic Tailwind styling.",
     "imageUrl": "https://cdn.jsdelivr.net/gh/richjava/builtjs-plugin-blog/public/images/theme/plugin.png",
-    "language": "typescript",
-    "repoName": "richjava/builtjs-plugin-blog",
-    "gitProvider": "github",
-    "repoUrl": "https://github.com/richjava/builtjs-plugin-blog",
     "demoUrl": "https://builtjs-plugin-blog.vercel.app",
     "mainModule": {
       "name": "blog"
@@ -18,8 +12,7 @@
         "node": {
           "dependencies": [
             "date-fns",
-            "@sanity/block-content-to-react",
-            "@fisch0920/use-dark-mode"
+            "@sanity/block-content-to-react"
           ]
         }
     }

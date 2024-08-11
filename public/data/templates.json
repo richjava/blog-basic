@@ -6,7 +6,7 @@
       "category": "headers",
       "isDemo": true,
       "description": "Simple header with justified logo and nav links.",
-      "repoUrl": "https://github.com/richjava/builtjs-plugin-blog/blob/main/components/plugins/richjava_builtjs-plugin-blog/templates/headers/header1.tsx",
+      "repoUrl": "https://github.com/richjava/builtjs-plugin-blog/blob/main/components/plugins/gh_richjava_builtjs-plugin-blog/templates/headers/header1.tsx",
       "demoUrl": ""
     },
     {
@@ -15,7 +15,7 @@
       "category": "footers",
       "isDemo": true,
       "description": "Simple footer with centered content and social links.",
-      "repoUrl": "https://github.com/richjava/builtjs-plugin-blog/blob/main/components/plugins/richjava_builtjs-plugin-blog/templates/footers/footer1.tsx",
+      "repoUrl": "https://github.com/richjava/builtjs-plugin-blog/blob/main/components/plugins/gh_richjava_builtjs-plugin-blog/templates/footers/footer1.tsx",
       "demoUrl": ""
     },
     {
@@ -23,7 +23,7 @@
       "title": "SEO",
       "category": "head",
       "description": "Define SEO meta titles, meta descriptions and social media meta data.",
-      "repoUrl": "https://github.com/richjava/builtjs-plugin-blog/blob/main/components/plugins/richjava_builtjs-plugin-blog/templates/head/seo.tsx"
+      "repoUrl": "https://github.com/richjava/builtjs-plugin-blog/blob/main/components/plugins/gh_richjava_builtjs-plugin-blog/templates/head/seo.tsx"
     },
     {
       "name": "list1",
@@ -34,7 +34,7 @@
         "thumb": "https://cdn.jsdelivr.net/gh/richjava/builtjs-plugin-blog/public/images/theme/templates/lists/list1.png",
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-plugin-blog/public/images/theme/templates/lists/list1.png"
       },
-      "repoUrl": "https://github.com/richjava/builtjs-plugin-blog/blob/main/components/plugins/richjava_builtjs-plugin-blog/templates/lists/list1.tsx",
+      "repoUrl": "https://github.com/richjava/builtjs-plugin-blog/blob/main/components/plugins/gh_richjava_builtjs-plugin-blog/templates/lists/list1.tsx",
       "demoUrl": ""
     },
     {
@@ -46,7 +46,7 @@
         "thumb": "https://cdn.jsdelivr.net/gh/richjava/builtjs-plugin-blog/public/images/theme/templates/lists/list2.png",
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-plugin-blog/public/images/theme/templates/lists/list2.png"
       },
-      "repoUrl": "https://github.com/richjava/builtjs-plugin-blog/blob/main/components/plugins/richjava_builtjs-plugin-blog/templates/lists/list2.tsx",
+      "repoUrl": "https://github.com/richjava/builtjs-plugin-blog/blob/main/components/plugins/gh_richjava_builtjs-plugin-blog/templates/lists/list2.tsx",
       "demoUrl": ""
     },
     {
@@ -58,7 +58,7 @@
         "thumb": "https://cdn.jsdelivr.net/gh/richjava/builtjs-plugin-blog/public/images/theme/templates/articles/article1.png",
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-plugin-blog/public/images/theme/templates/articles/article1.png"
       },
-      "repoUrl": "https://github.com/richjava/builtjs-plugin-blog/blob/main/components/plugins/richjava_builtjs-plugin-blog/templates/articles/article1.tsx",
+      "repoUrl": "https://github.com/richjava/builtjs-plugin-blog/blob/main/components/plugins/gh_richjava_builtjs-plugin-blog/templates/articles/article1.tsx",
       "demoUrl": ""
     }
   ]

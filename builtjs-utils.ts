@@ -15,7 +15,7 @@ export async function getComponentMap(sections:any) {
         return '-' + match.toLowerCase();
       });
       map["section" + i] = import(
-        `./components/plugins/richjava_builtjs-plugin-blog/templates/${template.category}/${templateFileName}.tsx`
+        `./components/plugins/gh_richjava_builtjs-plugin-blog/templates/${template.category}/${templateFileName}.tsx`
       );
     }
     resolve(map);

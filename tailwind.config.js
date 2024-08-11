@@ -1,5 +1,4 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
-const colors = require("tailwindcss/colors");
 
 module.exports = {
   content: [
@@ -10,24 +9,21 @@ module.exports = {
   ],
   darkMode: "class",
   theme: {
-    colors: {
-      ...colors,
-      ...{
-        //Primary and secondary colors
-        "primary": "#e5e7eb",
-        "secondary": "#f3f4f6",
-
-        // Accent colors (uses hsl values defined in styles/globals.css)
-        "accent": "hsl(var(--hue-accent),var(--saturation-accent),var(--lightness-accent))",
-        "accent-hover": "hsl(var(--hue-accent),var(--saturation-accent),calc(var(--lightness-accent) + 10%))",
-        "accent-active": "hsl(var(--hue-accent),var(--saturation-accent),calc(var(--lightness-accent) - 10%))",
-        "accent-disabled": "hsl(var(--hue-accent),var(--saturation-accent),calc(var(--lightness-accent) + 30%))",
-
-        // Other colors
-        "current": "currentColor",
-      },
-    },
     extend: {
+      colors: {
+          //Primary and secondary colors
+          "primary": "#e5e7eb",
+          "secondary": "#f3f4f6",
+  
+          // Accent colors (uses hsl values defined in styles/globals.css)
+          "accent": "hsl(var(--hue-accent),var(--saturation-accent),var(--lightness-accent))",
+          "accent-hover": "hsl(var(--hue-accent),var(--saturation-accent),calc(var(--lightness-accent) + 10%))",
+          "accent-active": "hsl(var(--hue-accent),var(--saturation-accent),calc(var(--lightness-accent) - 10%))",
+          "accent-disabled": "hsl(var(--hue-accent),var(--saturation-accent),calc(var(--lightness-accent) + 30%))",
+  
+          // Other colors
+          "current": "currentColor",
+      },
       fontFamily: {
         sans: ["IBM Plex Sans", ...defaultTheme.fontFamily.sans],
         display: ["Arial", ...defaultTheme.fontFamily.sans],
