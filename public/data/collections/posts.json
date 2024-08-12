@@ -33,10 +33,7 @@
       "blurb": "Ac tincidunt ex feugiat vel imperdiet urna facilisis a nullam ac magna quis nunc.",
       "category": "Category",
       "image": {
-        "name": "image",
-        "path": "/images/theme",
-        "ext": "png",
-        "url": "/images/theme/image.png",
+        "path": "/images/theme/image.png",
         "width": 1280,
         "height": 768
       },
@@ -77,10 +74,7 @@
       "blurb": "Nunc volutpat ex libero nullam ac magna quis nunc tempor maximus eget at ligula.",
       "category": "Category",
       "image": {
-        "name": "image",
-        "path": "/images/theme",
-        "ext": "png",
-        "url": "/images/theme/image.png",
+        "path": "/images/theme/image.png",
         "width": 1280,
         "height": 768
       },
@@ -124,10 +118,7 @@
       "blurb": "Consectetur adipiscing elit integer placerat scelerisque leo ac tincidunt ex feugiat vel.",
       "category": "Category",
       "image": {
-        "name": "image",
-        "path": "/images/theme",
-        "ext": "png",
-        "url": "/images/theme/image.png",
+        "path": "/images/theme/image.png",
         "width": 1280,
         "height": 768
       },

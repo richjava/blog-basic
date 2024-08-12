@@ -39,7 +39,7 @@ export function getComponents(sections: any): Promise<React.ComponentType[]> {
 
 export const urlForImage = (source: any) => {
   return `${publicRuntimeConfig.BACKEND_URL || ""}${
-    source?.url
+    source?.path
   }`
 }
 

@@ -21,10 +21,7 @@
       ],
       "position": "Writer",
       "profileImage": {
-        "name": "image",
-        "path": "/images/theme",
-        "ext": "png",
-        "url": "/images/theme/image.png",
+        "path": "/images/theme/image.png",
         "width": 48,
         "height": 48
       }
@@ -50,10 +47,7 @@
       ],
       "position": "Writer",
       "profileImage": {
-        "name": "image",
-        "path": "/images/theme",
-        "ext": "png",
-        "url": "/images/theme/image.png",
+        "path": "/images/theme/image.png",
         "width": 48,
         "height": 48
       }
