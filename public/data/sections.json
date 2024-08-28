@@ -37,7 +37,7 @@
         "pageTitle": "Blog | Corporate Tailwind Built.JS Theme",
         "description": "Blog page for a site built with the Corporate Tailwind Built.JS Theme.",
         "shareImage": {
-          "path": "/images/theme/image.png",
+          "path": "/images/plugins/gh_richjava_blog/image.png",
           "width": 1280,
           "height": 768
         },

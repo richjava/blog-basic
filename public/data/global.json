@@ -2,7 +2,7 @@
   "global": {
     "name": "Blog",
     "logo": {
-      "path": "/images/theme/builtjs.svg",
+      "path": "/images/builtjs.svg",
       "width": 45,
       "height": 45
     }
