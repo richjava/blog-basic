@@ -35,7 +35,8 @@
       "image": {
         "path": "/images/plugins/gh_richjava_blog/image.png",
         "width": 1280,
-        "height": 768
+        "height": 768,
+        "repo": { "owner": "richjava", "repo": "blog", "provider": "gh" }
       },
       "date": "2023-06-03",
       "author": "author-fb4f3b3c-04ed-4e08-b8fb-6b7db6efcb60",
@@ -76,7 +77,8 @@
       "image": {
         "path": "/images/plugins/gh_richjava_blog/image.png",
         "width": 1280,
-        "height": 768
+        "height": 768,
+        "repo": { "owner": "richjava", "repo": "blog", "provider": "gh" }
       },
       "date": "2023-06-03",
       "author": "author-fb4f3b3c-04ed-4e08-b8fb-6b7db6efcb61",
@@ -120,7 +122,8 @@
       "image": {
         "path": "/images/plugins/gh_richjava_blog/image.png",
         "width": 1280,
-        "height": 768
+        "height": 768,
+        "repo": { "owner": "richjava", "repo": "blog", "provider": "gh" }
       },
       "date": "2023-06-03",
       "author": "author-fb4f3b3c-04ed-4e08-b8fb-6b7db6efcb60",
