@@ -1,5 +1,13 @@
 {
   "sections": {
+    "header": {
+      "name": "header",
+      "fields": {}
+    },
+    "footer": {
+      "name": "footer",
+      "fields": {}
+    },
     "blogTeaser": {
       "name": "blogTeaser",
       "fields": {}

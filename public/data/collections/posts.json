@@ -33,10 +33,10 @@
       "blurb": "Ac tincidunt ex feugiat vel imperdiet urna facilisis a nullam ac magna quis nunc.",
       "category": "Category",
       "image": {
+        "url": "https://res.cloudinary.com/dn7feeelf/image/upload/v1725870601/image_lwgqjo.png",
         "path": "/images/plugins/gh_richjava_blog/image.png",
         "width": 1280,
-        "height": 768,
-        "repo": { "owner": "richjava", "repo": "blog", "provider": "gh" }
+        "height": 768
       },
       "date": "2023-06-03",
       "author": "author-fb4f3b3c-04ed-4e08-b8fb-6b7db6efcb60",
@@ -75,10 +75,10 @@
       "blurb": "Nunc volutpat ex libero nullam ac magna quis nunc tempor maximus eget at ligula.",
       "category": "Category",
       "image": {
+        "url": "https://res.cloudinary.com/dn7feeelf/image/upload/v1725870601/image_lwgqjo.png",
         "path": "/images/plugins/gh_richjava_blog/image.png",
         "width": 1280,
-        "height": 768,
-        "repo": { "owner": "richjava", "repo": "blog", "provider": "gh" }
+        "height": 768
       },
       "date": "2023-06-03",
       "author": "author-fb4f3b3c-04ed-4e08-b8fb-6b7db6efcb61",
@@ -120,10 +120,10 @@
       "blurb": "Consectetur adipiscing elit integer placerat scelerisque leo ac tincidunt ex feugiat vel.",
       "category": "Category",
       "image": {
+        "url": "https://res.cloudinary.com/dn7feeelf/image/upload/v1725870601/image_lwgqjo.png",
         "path": "/images/plugins/gh_richjava_blog/image.png",
         "width": 1280,
-        "height": 768,
-        "repo": { "owner": "richjava", "repo": "blog", "provider": "gh" }
+        "height": 768
       },
       "date": "2023-06-03",
       "author": "author-fb4f3b3c-04ed-4e08-b8fb-6b7db6efcb60",
