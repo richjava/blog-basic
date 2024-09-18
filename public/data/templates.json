@@ -28,10 +28,7 @@
       "title": "List 1",
       "category": "lists",
       "description": "List item with two offset columns and split content.",
-      "images": {
-        "thumb": "https://res.cloudinary.com/dn7feeelf/image/upload/v1725870675/list1_ba4rio.png",
-        "lrg": "https://res.cloudinary.com/dn7feeelf/image/upload/v1725870675/list1_ba4rio.png"
-      },
+      "imageUrl": "https://res.cloudinary.com/dn7feeelf/image/upload/v1725870675/list1_ba4rio.png",
       "repoUrl": "https://github.com/richjava/blog/blob/main/components/plugins/gh_richjava_blog/templates/lists/list1.tsx",
       "demoUrl": ""
     },
@@ -40,10 +37,7 @@
       "title": "List 2",
       "category": "lists",
       "description": "List of items with three equal columns, left aligned content and an image.",
-      "images": {
-        "thumb": "https://res.cloudinary.com/dn7feeelf/image/upload/v1725870675/list2_lirwam.png",
-        "lrg": "https://res.cloudinary.com/dn7feeelf/image/upload/v1725870675/list2_lirwam.png"
-      },
+      "imageUrl": "https://res.cloudinary.com/dn7feeelf/image/upload/v1725870675/list2_lirwam.png",
       "repoUrl": "https://github.com/richjava/blog/blob/main/components/plugins/gh_richjava_blog/templates/lists/list2.tsx",
       "demoUrl": ""
     },
@@ -52,10 +46,7 @@
       "title": "Article 1",
       "category": "articles",
       "description": "Article section with hero image.",
-      "images": {
-        "thumb": "https://res.cloudinary.com/dn7feeelf/image/upload/v1725870643/article1_kyaxxq.png",
-        "lrg": "https://res.cloudinary.com/dn7feeelf/image/upload/v1725870643/article1_kyaxxq.png"
-      },
+      "imageUrl": "https://res.cloudinary.com/dn7feeelf/image/upload/v1725870643/article1_kyaxxq.png",
       "repoUrl": "https://github.com/richjava/blog/blob/main/components/plugins/gh_richjava_blog/templates/articles/article1.tsx",
       "demoUrl": ""
     }
