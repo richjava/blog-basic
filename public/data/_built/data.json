@@ -228,9 +228,10 @@
       "type": "head",
       "data": {
         "pageTitle": "Blog | Corporate Tailwind Built.JS Theme",
-        "description": "Blog page for a site built with the Corporate Tailwind Built.JS Theme.",
+        "description": "Blog page for a site built with the Corporate Tailwind Built.js Theme.",
         "shareImage": {
-          "path": "/images/plugins/gh_richjava_blog/image.png",
+          "url": "https://res.cloudinary.com/dn7feeelf/image/upload/v1725870601/image_lwgqjo.png",
+          "path": "/images/plugins/richjava_blog/image.png",
           "width": 1280,
           "height": 768
         },
@@ -382,7 +383,7 @@
       "title": "Header 1",
       "category": "headers",
       "description": "Simple header with justified logo and nav links.",
-      "repoUrl": "https://github.com/richjava/blog/blob/main/components/plugins/gh_richjava_blog/templates/headers/header1.tsx",
+      "repoUrl": "https://github.com/richjava/blog/blob/main/components/plugins/richjava_blog/templates/headers/header1.tsx",
       "demoUrl": ""
     },
     {
@@ -390,7 +391,7 @@
       "title": "Footer 1",
       "category": "footers",
       "description": "Simple footer with centered content and social links.",
-      "repoUrl": "https://github.com/richjava/blog/blob/main/components/plugins/gh_richjava_blog/templates/footers/footer1.tsx",
+      "repoUrl": "https://github.com/richjava/blog/blob/main/components/plugins/richjava_blog/templates/footers/footer1.tsx",
       "demoUrl": ""
     },
     {
@@ -398,18 +399,15 @@
       "title": "SEO",
       "category": "head",
       "description": "Define SEO meta titles, meta descriptions and social media meta data.",
-      "repoUrl": "https://github.com/richjava/blog/blob/main/components/plugins/gh_richjava_blog/templates/head/seo.tsx"
+      "repoUrl": "https://github.com/richjava/blog/blob/main/components/plugins/richjava_blog/templates/head/seo.tsx"
     },
     {
       "name": "list1",
       "title": "List 1",
       "category": "lists",
       "description": "List item with two offset columns and split content.",
-      "images": {
-        "thumb": "https://cdn.jsdelivr.net/gh/richjava/blog/public/images/templates/lists/list1.png",
-        "lrg": "https://cdn.jsdelivr.net/gh/richjava/blog/public/images/templates/lists/list1.png"
-      },
-      "repoUrl": "https://github.com/richjava/blog/blob/main/components/plugins/gh_richjava_blog/templates/lists/list1.tsx",
+      "imageUrl": "https://res.cloudinary.com/dn7feeelf/image/upload/v1725870675/list1_ba4rio.png",
+      "repoUrl": "https://github.com/richjava/blog/blob/main/components/plugins/richjava_blog/templates/lists/list1.tsx",
       "demoUrl": ""
     },
     {
@@ -417,11 +415,8 @@
       "title": "List 2",
       "category": "lists",
       "description": "List of items with three equal columns, left aligned content and an image.",
-      "images": {
-        "thumb": "https://cdn.jsdelivr.net/gh/richjava/blog/public/images/templates/lists/list2.png",
-        "lrg": "https://cdn.jsdelivr.net/gh/richjava/blog/public/images/templates/lists/list2.png"
-      },
-      "repoUrl": "https://github.com/richjava/blog/blob/main/components/plugins/gh_richjava_blog/templates/lists/list2.tsx",
+      "imageUrl": "https://res.cloudinary.com/dn7feeelf/image/upload/v1725870675/list2_lirwam.png",
+      "repoUrl": "https://github.com/richjava/blog/blob/main/components/plugins/richjava_blog/templates/lists/list2.tsx",
       "demoUrl": ""
     },
     {
@@ -429,11 +424,58 @@
       "title": "Article 1",
       "category": "articles",
       "description": "Article section with hero image.",
-      "images": {
-        "thumb": "https://cdn.jsdelivr.net/gh/richjava/blog/public/images/templates/articles/article1.png",
-        "lrg": "https://cdn.jsdelivr.net/gh/richjava/blog/public/images/templates/articles/article1.png"
-      },
-      "repoUrl": "https://github.com/richjava/blog/blob/main/components/plugins/gh_richjava_blog/templates/articles/article1.tsx",
+      "imageUrl": "https://res.cloudinary.com/dn7feeelf/image/upload/v1725870643/article1_kyaxxq.png",
+      "repoUrl": "https://github.com/richjava/blog/blob/main/components/plugins/richjava_blog/templates/articles/article1.tsx",
+      "demoUrl": ""
+    },
+    {
+      "name": "header1",
+      "title": "Header 1",
+      "category": "headers",
+      "description": "Simple header with justified logo and nav links.",
+      "repoUrl": "https://github.com/richjava/blog/blob/main/components/plugins/richjava_blog/templates/headers/header1.tsx",
+      "demoUrl": ""
+    },
+    {
+      "name": "footer1",
+      "title": "Footer 1",
+      "category": "footers",
+      "description": "Simple footer with centered content and social links.",
+      "repoUrl": "https://github.com/richjava/blog/blob/main/components/plugins/richjava_blog/templates/footers/footer1.tsx",
+      "demoUrl": ""
+    },
+    {
+      "name": "seo",
+      "title": "SEO",
+      "category": "head",
+      "description": "Define SEO meta titles, meta descriptions and social media meta data.",
+      "repoUrl": "https://github.com/richjava/blog/blob/main/components/plugins/richjava_blog/templates/head/seo.tsx"
+    },
+    {
+      "name": "list1",
+      "title": "List 1",
+      "category": "lists",
+      "description": "List item with two offset columns and split content.",
+      "imageUrl": "https://res.cloudinary.com/dn7feeelf/image/upload/v1725870675/list1_ba4rio.png",
+      "repoUrl": "https://github.com/richjava/blog/blob/main/components/plugins/richjava_blog/templates/lists/list1.tsx",
+      "demoUrl": ""
+    },
+    {
+      "name": "list2",
+      "title": "List 2",
+      "category": "lists",
+      "description": "List of items with three equal columns, left aligned content and an image.",
+      "imageUrl": "https://res.cloudinary.com/dn7feeelf/image/upload/v1725870675/list2_lirwam.png",
+      "repoUrl": "https://github.com/richjava/blog/blob/main/components/plugins/richjava_blog/templates/lists/list2.tsx",
+      "demoUrl": ""
+    },
+    {
+      "name": "article1",
+      "title": "Article 1",
+      "category": "articles",
+      "description": "Article section with hero image.",
+      "imageUrl": "https://res.cloudinary.com/dn7feeelf/image/upload/v1725870643/article1_kyaxxq.png",
+      "repoUrl": "https://github.com/richjava/blog/blob/main/components/plugins/richjava_blog/templates/articles/article1.tsx",
       "demoUrl": ""
     }
   ],
@@ -451,6 +493,7 @@
   "global": {
     "name": "Blog",
     "logo": {
+      "url": "https://res.cloudinary.com/dn7feeelf/image/upload/v1725870579/builtjs_bert2m.svg",
       "path": "/images/builtjs.svg",
       "width": 45,
       "height": 45
@@ -508,14 +551,10 @@
         "blurb": "Ac tincidunt ex feugiat vel imperdiet urna facilisis a nullam ac magna quis nunc.",
         "category": "Category",
         "image": {
-          "path": "/images/plugins/gh_richjava_blog/image.png",
+          "url": "https://res.cloudinary.com/dn7feeelf/image/upload/v1725870601/image_lwgqjo.png",
+          "path": "/images/plugins/richjava_blog/image.png",
           "width": 1280,
-          "height": 768,
-          "repo": {
-            "owner": "richjava",
-            "repo": "blog",
-            "provider": "gh"
-          }
+          "height": 768
         },
         "date": "2023-06-03",
         "author": "author-fb4f3b3c-04ed-4e08-b8fb-6b7db6efcb60",
@@ -557,14 +596,10 @@
         "blurb": "Nunc volutpat ex libero nullam ac magna quis nunc tempor maximus eget at ligula.",
         "category": "Category",
         "image": {
-          "path": "/images/plugins/gh_richjava_blog/image.png",
+          "url": "https://res.cloudinary.com/dn7feeelf/image/upload/v1725870601/image_lwgqjo.png",
+          "path": "/images/plugins/richjava_blog/image.png",
           "width": 1280,
-          "height": 768,
-          "repo": {
-            "owner": "richjava",
-            "repo": "blog",
-            "provider": "gh"
-          }
+          "height": 768
         },
         "date": "2023-06-03",
         "author": "author-fb4f3b3c-04ed-4e08-b8fb-6b7db6efcb61",
@@ -607,14 +642,10 @@
         "blurb": "Consectetur adipiscing elit integer placerat scelerisque leo ac tincidunt ex feugiat vel.",
         "category": "Category",
         "image": {
-          "path": "/images/plugins/gh_richjava_blog/image.png",
+          "url": "https://res.cloudinary.com/dn7feeelf/image/upload/v1725870601/image_lwgqjo.png",
+          "path": "/images/plugins/richjava_blog/image.png",
           "width": 1280,
-          "height": 768,
-          "repo": {
-            "owner": "richjava",
-            "repo": "blog",
-            "provider": "gh"
-          }
+          "height": 768
         },
         "date": "2023-06-03",
         "author": "author-fb4f3b3c-04ed-4e08-b8fb-6b7db6efcb60",
@@ -653,7 +684,8 @@
         ],
         "position": "Writer",
         "profileImage": {
-          "path": "/images/plugins/gh_richjava_blog/image.png",
+          "url": "https://res.cloudinary.com/dn7feeelf/image/upload/v1725870601/image_lwgqjo.png",
+          "path": "/images/plugins/richjava_blog/image.png",
           "width": 48,
           "height": 48
         }
@@ -679,7 +711,8 @@
         ],
         "position": "Writer",
         "profileImage": {
-          "path": "/images/plugins/gh_richjava_blog/image.png",
+          "url": "https://res.cloudinary.com/dn7feeelf/image/upload/v1725870601/image_lwgqjo.png",
+          "path": "/images/plugins/richjava_blog/image.png",
           "width": 48,
           "height": 48
         }
@@ -699,5 +732,6 @@
         "name": "Tag 2"
       }
     ]
-  }
+  },
+  "plugins": []
 }
