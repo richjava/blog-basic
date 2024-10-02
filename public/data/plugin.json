@@ -1,7 +1,7 @@
 {
   "plugin": {
     "namespace": "richjava_blog-basic",
-    "title": "Blog",
+    "title": "Blog Basic",
     "description": "Blog plugin with basic Tailwind styling.",
     "imageUrl": "https://res.cloudinary.com/dn7feeelf/image/upload/v1725870580/plugin_cqm0dq.png",
     "demoUrl": "https://builtjs-plugin-blog.vercel.app",
