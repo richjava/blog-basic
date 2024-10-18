@@ -18,12 +18,12 @@ export default function Article1({ content }: any) {
         <div className="max-w-screen-xl mx-auto">
           <header className="max-w-4xl mx-auto">
             <div className="flex items-center mb-4">
-              <p className="mb-0 capitalize paragraph-sm preheading">
+              <p className="capitalize preheading paragraph-sm">
                 {format(new Date(entry.date), "dd LLLL yyyy")}
               </p>
               <span className="mx-3 text-gray-100">|</span>
               <Link className="no-underline hover:underline" href="/">
-                <p className="mb-0 paragraph-sm">{entry.category}</p>
+                <p className="paragraph-sm">{entry.category}</p>
               </Link>
             </div>
             <h1 className="mb-10 heading-xxl">{entry.title}</h1>
