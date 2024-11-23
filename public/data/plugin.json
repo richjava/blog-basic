@@ -10,7 +10,7 @@
       "name": "blog"
     },
     "config": {
-      "dependencies": ["date-fns", "@sanity/block-content-to-react"]
+      "dependencies": ["date-fns", "@portabletext/react"]
     }
   }
 }
