@@ -15,7 +15,7 @@ export async function getComponentMap(sections:any) {
         return '-' + match.toLowerCase();
       });
       map["section" + i] = import(
-        `./components/plugins/richjava_blog-basic/templates/${template.category}/${templateFileName}.tsx`
+        `./../components/plugins/richjava_blog-basic/templates/${template.category}/${templateFileName}.tsx`
       );
     }
     resolve(map);
@@ -35,12 +35,6 @@ export function getComponents(sections: any): Promise<React.ComponentType[]> {
       resolve(comps);
     });
   });
-}
-
-export const urlForImage = (source: any) => {
-  return `${publicRuntimeConfig.BACKEND_URL || ""}${
-    source?.path
-  }`
 }
 
 export const widthForImage = (source: any) =>

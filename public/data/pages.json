@@ -1,32 +1,13 @@
 {
   "pages": [
     {
-      "name": "home",
-      "title": "Home",
-      "demoSections": [
-        {
-          "name": "blogTeaser"
-        }
-      ]
+      "name": "home"
     },
     {
-      "name": "blog",
-      "title": "Blog",
-      "demoSections": [
-        {
-          "name": "blogSeo"
-        },
-        {
-          "name": "blogLanding"
-        },
-        {
-          "name": "postList"
-        }
-      ]
+      "name": "blog"
     },
     {
       "name": "blogArticle",
-      "title": "Blog Article",
       "contentType": {
         "name": "post",
         "config": {
@@ -44,15 +25,7 @@
             }
           ]
         }
-      },
-      "demoSections": [
-        {
-          "name": "blogArticleLanding"
-        },
-        {
-          "name": "blogRelatedArticles"
-        }
-      ]
+      }
     }
   ]
 }
