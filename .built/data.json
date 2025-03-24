@@ -161,14 +161,17 @@
           "populate": [
             {
               "name": "author",
+              "type": "author",
               "populate": [
                 {
-                  "name": "profile"
+                  "name": "profile",
+                  "type": "profile"
                 }
               ]
             },
             {
-              "name": "tags"
+              "name": "tags",
+              "type": "tag"
             }
           ]
         }
@@ -224,7 +227,7 @@
       },
       "type": "head",
       "data": {
-        "pageTitle": "Blog | Corporate Tailwind Built.JS Theme",
+        "pageTitle": "Blog | Blog Basic Built.js Plugin",
         "description": "Blog page for a site built with the Corporate Tailwind Built.js Theme.",
         "shareImage": {
           "url": "https://res.cloudinary.com/dn7feeelf/image/upload/v1725870601/image_lwgqjo.png",
@@ -259,7 +262,8 @@
             "limit": 3,
             "populate": [
               {
-                "name": "tags"
+                "name": "tags",
+                "type": "tag"
               }
             ]
           },
@@ -288,7 +292,8 @@
             "limit": 1,
             "populate": [
               {
-                "name": "tags"
+                "name": "tags",
+                "type": "tag"
               }
             ]
           },
@@ -319,7 +324,8 @@
             "offset": 1,
             "populate": [
               {
-                "name": "tags"
+                "name": "tags",
+                "type": "tag"
               }
             ]
           },
@@ -363,7 +369,8 @@
             "limit": 3,
             "populate": [
               {
-                "name": "tags"
+                "name": "tags",
+                "type": "tag"
               }
             ]
           },

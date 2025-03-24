@@ -14,14 +14,17 @@
           "populate": [
             {
               "name": "author",
+              "type": "author",
               "populate": [
                 {
-                  "name": "profile"
+                  "name": "profile",
+                  "type": "profile"
                 }
               ]
             },
             {
-              "name": "tags"
+              "name": "tags",
+              "type": "tag"
             }
           ]
         }

@@ -66,7 +66,8 @@
             "limit": 3,
             "populate": [
               {
-                "name": "tags"
+                "name": "tags",
+                "type": "tag"
               }
             ]
           },
@@ -93,7 +94,8 @@
             "limit": 1,
             "populate": [
               {
-                "name": "tags"
+                "name": "tags",
+                "type": "tag"
               }
             ]
           },
@@ -121,7 +123,8 @@
             "offset": 1,
             "populate": [
               {
-                "name": "tags"
+                "name": "tags",
+                "type": "tag"
               }
             ]
           },
@@ -160,7 +163,8 @@
             "limit": 3,
             "populate": [
               {
-                "name": "tags"
+                "name": "tags",
+                "type": "tag"
               }
             ]
           },
