@@ -1,10 +1,11 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import React, {useEffect, useState} from 'react';
 import {useRouter} from 'next/router';
 import { useParams } from 'next/navigation'
 import Layout from '@/components/plugins/richjava_blog-basic/layout';
 import {getComponents} from '@/lib/builtjs-utils';
 import { setupCrumbs } from ".";
-const {transformPage, fetchEntry, fetchEntries} = require('@builtjs/theme');
+import {transformPage, fetchEntry, fetchEntries} from '@builtjs/theme';
 
 const Page = ({config}: any) => {
 
@@ -14,11 +15,11 @@ const Page = ({config}: any) => {
   const [page, setPage] = useState<any>(null);
   const [sectionComps, setSectionComps] = useState<React.ComponentType[]>([]);
   const [layoutComps, setLayoutComps] = useState<React.ComponentType[]>([]);
-  let [isSetUpCrumbs, setIsSetupCrumbs] = useState(false);
+  const [isSetUpCrumbs, setIsSetupCrumbs] = useState(false);
 
   useEffect(() => {
     if (!isSetUpCrumbs) {
-      setupCrumbs(router);
+      setupCrumbs();
       setIsSetupCrumbs(true);
     }
     setPage(null);
@@ -30,11 +31,11 @@ const Page = ({config}: any) => {
     if (!config) {
       return;
     }
-    let page: any = await transformPage(config, params);
+    const page: any = await transformPage(config, params);
     if (!page) {
       return;
     }
-    let [sectionComponents, layoutComponents] = await Promise.all([
+    const [sectionComponents, layoutComponents] = await Promise.all([
       getComponents(page.sections),
       getComponents(page.layout.sections),
     ]);
