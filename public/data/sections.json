@@ -75,7 +75,8 @@
             "name": "blogArticle"
           }
         }
-      }
+      },
+      "imageUrl": "https://res.cloudinary.com/dn7feeelf/image/upload/v1725870675/list2_lirwam.png"
     },
     {
       "name": "blogLanding",
